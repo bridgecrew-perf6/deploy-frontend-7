@@ -161,7 +161,7 @@ export default function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Navigate to="/welcome" />} />
+        <Route path="/deploy-frontend" element={<Navigate to="/welcome" />} />
         <Route
           path="/SignupAndLogin"
           element={
